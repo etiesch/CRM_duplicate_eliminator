@@ -3,6 +3,8 @@
 A simple desktop application with a graphical user interface to help you identify duplicate contacts before importing them into your CRM.
 This tool compares a main CRM contact list (as a CSV file) against a file containing new records (either Excel or CSV) and separates the new contacts from those that are already in the CRM.
 
+![screenshot](/screenshot.png)
+
 
 ## Key Features
 
