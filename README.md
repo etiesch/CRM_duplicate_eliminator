@@ -12,8 +12,8 @@ This tool compares a main CRM contact list (as a CSV file) against a file contai
 - **Flexible Input**: Accepts CSV for the CRM export and either **Excel (.xlsx/.xls) or CSV** for the new records.
 - **Robust Matching**: Uses advanced name normalization to improve matching accuracy (converts to lowercase, removes accents and most punctuation).
 - **Clean Outputs**: Generates two separate, ready-to-use CSV files:
-    1.  `contacts_to_import.csv` (unique records not found in the CRM).
-    2.  `duplicates_to_review.csv` (records that were already in the CRM).
+  -  `contacts_to_import.csv` (unique records not found in the CRM).
+  -  `duplicates_to_review.csv` (records that were already in the CRM).
 
 ## How to Use
 
