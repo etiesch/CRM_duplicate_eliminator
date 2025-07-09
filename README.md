@@ -27,10 +27,8 @@ This tool compares a main CRM contact list (as a CSV file) against a file contai
 8.  Click **Save Duplicates for Review (CSV)** to save a file listing the contacts that were already found in your CRM for your reference.
 
 ## Installation
-Use the compiled version in Relases. Otherwise : 
-
-### Prerequisites
-- Python 3.x
+Use the compiled version in Relases. 
+Otherwise, use python and the following dependcies : 
 
 ### Dependencies
 This script requires a few Python libraries. You can install them all with a single command using pip:
@@ -38,7 +36,6 @@ This script requires a few Python libraries. You can install them all with a sin
 ```bash
 pip install pandas openpyxl unidecode xlrd
 ```
-*Note: `tkinter` is included with most standard Python installations and does not need to be installed separately.*
 
 ## Default Configuration
 
