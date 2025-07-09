@@ -28,7 +28,7 @@ This tool compares a main CRM contact list (as a CSV file) against a file contai
 
 ## Installation
 Use the compiled version in Relases. 
-Otherwise, use python and the following dependcies : 
+Otherwise, use python and the following dependencies: 
 
 ### Dependencies
 This script requires a few Python libraries. You can install them all with a single command using pip:
@@ -37,16 +37,4 @@ This script requires a few Python libraries. You can install them all with a sin
 pip install pandas openpyxl unidecode xlrd
 ```
 
-## Default Configuration
 
-The application comes with default settings tailored for a specific format, but these can be changed at runtime via the "Options" button.
-
-- **Default CRM Settings:**
-  - Delimiter: `;`
-  - Last Name Column: `Nom`
-  - First Name Column: `Prénom`
-
-- **Default New Records Settings:**
-  - Name Column: `Nom`
-  - Forename Column: `Prénom`
-  - CSV Delimiter: `,`
